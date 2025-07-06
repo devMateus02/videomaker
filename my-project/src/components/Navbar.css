@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+.nav-link{
+    @apply text-[15px] font-medium relative inline-block
+             before:content-[''] before:absolute before:bottom-0 before:left-0
+             before:h-[1px] before:w-full before:bg-white
+             before:scale-x-0 hover:before:scale-x-100
+             before:origin-left
+             before:transition-transform before:duration-200 before:ease-in-out
+}
