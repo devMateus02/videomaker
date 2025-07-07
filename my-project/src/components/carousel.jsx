@@ -1,13 +1,13 @@
-import img1 from '../assets/logos/1.PNG'
-import img2 from '../assets/logos/2.PNG'
-import img3 from '../assets/logos/3.PNG'
-import img4 from '../assets/logos/4.PNG'
-import img5 from '../assets/logos/5.PNG'
-import img7 from '../assets/logos/7.PNG'
-import img8 from '../assets/logos/8.PNG'
-import img9 from '../assets/logos/9.PNG'
-import img10 from '../assets/logos/10.PNG'
-import img11 from '../assets/logos/11.PNG'
+import img1 from '../assets/logos/1.webp'
+import img2 from '../assets/logos/2.webp'
+import img3 from '../assets/logos/3.webp'
+import img4 from '../assets/logos/4.webp'
+import img5 from '../assets/logos/5.webp'
+import img7 from '../assets/logos/7.webp'
+import img8 from '../assets/logos/8.webp'
+import img9 from '../assets/logos/9.webp'
+import img10 from '../assets/logos/10.webp'
+import img11 from '../assets/logos/11.webp'
 
 
 

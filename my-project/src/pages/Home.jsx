@@ -8,6 +8,7 @@ import ExperienceCounter from "../components/ExperienceCounter";
 import Typewriter from "typewriter-effect";
 import LogoCarousel from "../components/carousel.jsx";
 import FotoCarousel from "../components/Carousel-feed.jsx";
+import VoltarAoTopo from "../components/VoltaaoTopo.jsx";
 
 function Home() {
   const location = useLocation();
@@ -61,7 +62,7 @@ function Home() {
         </p>
          
         <div className="flex flex-row flex-wrap gap-8 items-center justify-center lg:justify-start">
-          <Link
+          <Link data-aos='fade-right' data-aos-delay='400'
           to="/portifolio"
           className="relative z-10 px-6 py-3 text-center
           bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
@@ -79,7 +80,7 @@ function Home() {
           PORTIFÓLIO
         </Link>
 
-        <a href="https://wa.me/5521991373832?text=oi,%20tudo%20bem%20?%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços"  className="relative z-10 px-6 py-3 text-center
+        <a data-aos='fade-right' data-aos-delay='300' href="https://wa.me/5521991373832?text=oi,%20tudo%20bem%20?%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços"  className="relative z-10 px-6 py-3 text-center
           bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
           text-white font-semibold text-lg rounded-2xl 
           shadow-[0_0_12px_hsl(35,35%,51%)] 
@@ -246,7 +247,7 @@ function Home() {
                 </h4>
                 <p className="text-white/50">anos de experiências</p>
               </div>
-            <FotoCarousel delay='850'/>
+            <FotoCarousel delay='450'/>
             <div data-aos='fade-down' delay='950' className="experience">
               <div className=" hidden w-[250px] h-[160px] lg:flex flex-col justify-center items-center">
                 <p>
@@ -257,7 +258,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <LogoCarousel delay='1050' />
+        <LogoCarousel delay='500' />
       </div>
       <div className="bg-[rgb(56,54,54)] overflow-hidden">
         <section id="contato" className="flex flex-col justify-center items-center">
@@ -294,6 +295,8 @@ function Home() {
 
           <div className="flex flex-row justify-between border-t-1 p-7" >
             <p className="text-[12px] text-left font-medium w-[25ch]">Copyright: © 2025 Stefanni Todos os direitos reservados.</p>
+            
+            <VoltarAoTopo/>
 
             <p className="text-[12px] w-[15ch] font-medium">
               Desenvolvido por{" "}

@@ -3,16 +3,16 @@ import { Autoplay, Navigation } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import foto1 from '../assets/feed/feed1.webp'
+
 import foto2 from '../assets/feed/feed2.webp'
 import foto3 from '../assets/feed/feed3.webp'
-import foto4 from '../assets/feed/feed4.webp'
+
 import foto5 from '../assets/feed/feed5.webp'
 import foto6 from '../assets/feed/feed6.webp'
 import foto7 from '../assets/feed/feed7.webp'
 import foto8 from '../assets/feed/feed8.webp'
 
-const fotos = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8]
+const fotos = [ foto2, foto3, foto5, foto6, foto7, foto8]
 
 export default function FotoCarousel(props) {
   return (
