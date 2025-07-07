@@ -14,7 +14,7 @@ function Portifolio() {
 
   const loadVideos = (cursor) => {
     setLoading(true);
-    fetch(`http://localhost:4000/api/videos${cursor ? `?next_cursor=${cursor}` : ""}`)
+    fetch(`https://videomaker-api-x2c8.onrender.com/api/videos${cursor ? `?next_cursor=${cursor}` : ""}`)
       .then((res) => res.json())
       .then((data) => {
         setVideos(data.videos);
