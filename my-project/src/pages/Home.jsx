@@ -30,9 +30,9 @@ function Home() {
   <Navbar />
   <section 
     id="/" 
-    className=" md:h-[90vh] flex md:pt-20 md:px-12 w-[100vw] pl-5 pr-5 pb-16"
+    className=" md:h-[90vh] flex md:pt-10 md:px-12 w-[100vw] pl-5 pr-5 pb-16"
   >
-    <div className="flex flex-col-reverse justify-center items-center lg:flex-row lg:justify-between  gap-15 md:gap-[18em] w-full">
+    <div className="flex flex-col-reverse justify-center items-center lg:items-center-safe lg:flex-row lg:justify-between  gap-15 md:gap-[18em] w-full">
       
       {/* Texto à esquerda */}
       <div 
@@ -59,8 +59,9 @@ function Home() {
         <p className=" lg:w-[40ch] text-[rgba(255,255,255,0.45)] pb-10">
           “Vídeos estratégicos que valorizam sua marca e geram resultados”
         </p>
-
-        <Link
+         
+        <div className="flex flex-row flex-wrap gap-8 items-center justify-center lg:justify-start">
+          <Link
           to="/portifolio"
           className="relative z-10 px-6 py-3 text-center
           bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
@@ -77,6 +78,20 @@ function Home() {
         >
           PORTIFÓLIO
         </Link>
+
+        <a href="https://wa.me/5521991373832?text=oi,%20tudo%20bem%20?%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços"  className="relative z-10 px-6 py-3 text-center
+          bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
+          text-white font-semibold text-lg rounded-2xl 
+          shadow-[0_0_12px_hsl(35,35%,51%)] 
+          hover:scale-105 hover:brightness-125 
+          hover:shadow-[0_0_24px_hsl(35,35%,60%)] 
+          active:scale-105 active:brightness-125 
+          active:shadow-[0_0_24px_hsl(35,35%,60%)] 
+          transition-all duration-200
+          before:absolute before:inset-0 before:rounded-2xl 
+          before:animate-[ping_1.5s_ease-out_infinite] 
+          before:bg-[hsl(35,35%,51%)] before:opacity-30" >Contate-me</a>
+        </div>
       </div>
 
       {/* Imagem à direita */}
@@ -213,7 +228,7 @@ function Home() {
         </section>
       </div>
 
-      <div className="bg-[rgb(22,21,21)] overflow-hidden">
+      <div className="bg-[rgb(22,21,21)] ">
         <section
           id="servicos"
           className="flex flex-col justify-center items-center"
@@ -226,7 +241,7 @@ function Home() {
             <Cards delay='700'name="Gerenciamento de redes sociais" />
             <Cards delay='800'name="Cobertura de eventos em tempo real" />
             <div data-aos='fade-down' data-aos-delay='900' className="lg:hidden w-[160px] h-[160px] flex flex-col justify-center items-center">
-                <h4 className="text-">
+                <h4>
                   <ExperienceCounter />
                 </h4>
                 <p className="text-white/50">anos de experiências</p>
@@ -234,7 +249,7 @@ function Home() {
             <FotoCarousel delay='850'/>
             <div data-aos='fade-down' delay='950' className="experience">
               <div className=" hidden w-[250px] h-[160px] lg:flex flex-col justify-center items-center">
-                <h4 className="text-">
+                <h4>
                   <ExperienceCounter />
                 </h4>
                 <p className="text-white/50">anos de experiências</p>
@@ -248,39 +263,7 @@ function Home() {
         <section id="contato" className="flex flex-col justify-center items-center">
           <Tiltle name='ENTRE EM CONTATO'/>
           <div className="flex flex-col items-center p-[0px_15px] gap-6 lg:flex-row justify-around w-[100%] mt-15 lg:mt-20 mb-20">
-            <form data-aos='fade-right' data-aos-delay='300' className="grid grid-cols-2 gap-4 ">
-            <input  data-aos='fade-right' data-aos-delay='300'
-              type="text"
-              name="nome"
-              placeholder="Nome"
-              className="p-2 border border-[rgba(255,255,255,15%)] rounded-4xl col-span-1"
-            />
-            <input  data-aos='fade-right' data-aos-delay='350'
-              type="text"
-              name="assunto"
-              placeholder="Assunto"
-              className="p-2 border border-[rgba(255,255,255,15%)]  rounded-4xl col-span-1"
-            />
-            <input  data-aos='fade-right' data-aos-delay='400'
-              type="email"
-              placeholder="Email"
-              className="p-2 border border-[rgba(255,255,255,15%)]  rounded-4xl col-span-2"
-            />
-            <textarea  data-aos='fade-right' data-aos-delay='450'
-              name="mensagem"
-              placeholder="Mensagem"
-              className="p-2 border border-[rgba(255,255,255,15%)]  rounded-4xl col-span-2 h-32 resize-none"
-            />
-            <button  data-aos='fade-right' data-aos-delay='500' className=" relative z-10 px-6 py-3 text-center
-              bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
-             text-white font-semibold text-lg rounded-2xl 
-              shadow-[0_0_12px_hsl(35,35%,51%)] 
-              hover:brightness-125 
-              hover:shadow-[0_0_24px_hsl(35,35%,60%)] 
-              transition-all duration-[.2s] cursor-pointer">
-              Enviar
-            </button>
-          </form>
+           
           <div data-aos='fade-left' data-aos-delay='300' className="flex flex-col justify-center text-left  w-[300px] h-[100%] bg-[#2F2F2F] pt-16  pb-16 pl-10 rounded-4xl ">
 
             <h5 data-aos='fade-left' data-aos-delay='450' className=" font-semibold">Celular:</h5>
@@ -302,9 +285,9 @@ function Home() {
          <div className="flex flex-col lg:flex-row justify-between items-center">  
           <p data-aos='fade-left' data-aos-delay='400' className="lg:flex-1 font-semibold text-4xl mb-7.5">let's work with ME</p>
           <div className="flex flex-col justify-center items-center flex-1 ">
-            <p data-aos='fade-right' data-aos-delay='500'>+55 21 991373832</p>
-            <p data-aos='fade-left' data-aos-delay='550'>stefannicb@gmail.com</p>
-            <p>Rio de Janeiro | Brasil</p>
+            <p>+55 21 991373832</p>
+            <p>stefannicb@gmail.com</p>
+            <p >Rio de Janeiro | Brasil</p>
           </div>
 
           <img src="footer.webp" alt="imagem de um celular"  className="w-[40%] hidden lg:block "/></div>
