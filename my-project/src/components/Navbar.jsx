@@ -31,6 +31,7 @@ export default function Navbar() {
                 hover:before:bg-white hover:after:bg-white
                 active:before:bg-white active:after:bg-white"
         onClick={() => setMobileOpen(!mobileOpen)}
+        alt='botao de menu'
       ></button>
 
       {/* MENU RESPONSIVO */}
@@ -47,7 +48,7 @@ export default function Navbar() {
         <ul className="flex flex-col md:flex-row items-center md:items-center justify-center md:justify-start gap-6 md:gap-2.5 text-center w-full">
           {/* Botão de contato rápido */}
           <li className="relative opacity-0 pointer-events-none sm:opacity-100 sm:pointer-events-auto ">
-            <button
+            <button alt='botao de menu'
               onClick={() => setOpenLab(!openLab)}
               className="relative p-4 cursor-pointer transition duration-75 ease-in-out
                 before:content-[''] before:absolute before:w-7 before:h-[5px] before:border before:rounded-2xl 
@@ -68,13 +69,13 @@ export default function Navbar() {
               `}
             >
               <div className="text-left ">
-                <h5 className="font-medium">Celular:</h5>
+                <p className="font-medium">Celular:</p>
                 <p className="text-[rgba(255,255,255,60%)]">
                   +55 21 99137-3832
                 </p>
               </div>
               <div className="text-left mt-4">
-                <h5 className="font-medium">Email:</h5>
+                <p className="font-medium">Email:</p>
                 <p className="text-[rgba(255,255,255,60%)]">
                   stefannicb@gmail.com
                 </p>

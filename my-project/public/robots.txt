@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://stefannivideomaker.vercel.app/sitemap.xml

@@ -147,9 +147,9 @@ function Home() {
                   alt="faculdade marketing"
                   className="w-[35px]"
                 />
-                <h4 className=" relative w-[15ch] font-semibold ml-8 text-[14px] before:content-['●'] before:absolute before:left-0 pl-4 mt-">
+                <p className=" relative w-[15ch] font-semibold ml-8 text-[14px] before:content-['●'] before:absolute before:left-0 pl-4 mt-">
                   Formada em marketing
-                </h4>
+                </p>
                 <p className=" text-[12px] ml-12 pt-1 text-white/50">
                   UVA - Universidade Veiga de Almeida{" "}
                 </p>
@@ -174,9 +174,9 @@ function Home() {
           <Tiltle name="COMO POSSO TE AJUDAR" color="#686663" font="600" />
           <div className="text-[#2D2E30] w-[95%] lg:w-[100%] mt-20 mb-20">
             <div className="flex flex-col lg:flex-row flex-wrap gap-4 justify-center items-center font-semibold">
-              <h4 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150' >
+              <h3 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150' >
                 PLANEJAMENTO DE POSTAGEM E BRIEFING <span className="text-[20px] lg:hidden" >:</span>
-              </h4>
+              </h3>
 
               <p className="lg:hidden text-center font-medium"  data-aos='fade-right' data-aos-delay='450'>
                 Alinharemos todos os objetivos da marca e prepararei um briefing
@@ -188,7 +188,7 @@ function Home() {
                 alt="seta para a direita"
                 className="w-[20%] lg:w-[8%] lg:animation-moveAndFade rotate-90 lg:rotate-0"
               />
-              <h4 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150'>CAPTAÇÂO E EDIÇÃO <span className="text-[20px] lg:hidden" >:</span></h4>
+              <h3 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150'>CAPTAÇÂO E EDIÇÃO <span className="text-[20px] lg:hidden" >:</span></h3>
 
               <p className="lg:hidden text-center font-medium"  data-aos='fade-right' data-aos-delay='450'>
                Vamos marcar um dia para captar todos os conteúdos que serão
@@ -199,7 +199,7 @@ function Home() {
                 alt="seta para a direita"
                 className="w-[20%] lg:w-[8%] lg:animation-moveAndFade rotate-90 lg:rotate-0"
               />
-              <h4 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150'>RESULTADO E ENTREGA <span className="text-[20px] lg:hidden" >:</span></h4>
+              <h3 className="text-[20px] lg:text-2xl lg:w-[15ch]"  data-aos='fade-right' data-aos-delay='150'>RESULTADO E ENTREGA <span className="text-[20px] lg:hidden" >:</span></h3>
 
               <p className="lg:hidden text-center font-medium "  data-aos='fade-right' data-aos-delay='450'>
                 Você terá conteúdos para postar sem preocupação{" "}
@@ -249,9 +249,9 @@ function Home() {
             <FotoCarousel delay='850'/>
             <div data-aos='fade-down' delay='950' className="experience">
               <div className=" hidden w-[250px] h-[160px] lg:flex flex-col justify-center items-center">
-                <h4>
+                <p>
                   <ExperienceCounter />
-                </h4>
+                </p>
                 <p className="text-white/50">anos de experiências</p>
               </div>
             </div>
@@ -266,10 +266,10 @@ function Home() {
            
           <div data-aos='fade-left' data-aos-delay='300' className="flex flex-col justify-center text-left  w-[300px] h-[100%] bg-[#2F2F2F] pt-16  pb-16 pl-10 rounded-4xl ">
 
-            <h5 data-aos='fade-left' data-aos-delay='450' className=" font-semibold">Celular:</h5>
+            <p data-aos='fade-left' data-aos-delay='450' className=" font-semibold">Celular:</p>
             <p data-aos='fade-left' data-aos-delay='500' className="font-light mt-4 mb-4">+55 21 99137-3832</p>
 
-            <h5 data-aos='fade-left' data-aos-delay='550' className=" font-semibold">Email:</h5>
+            <p data-aos='fade-left' data-aos-delay='550' className=" font-semibold">Email:</p>
             <p data-aos='fade-left' data-aos-delay='600' className="font-light mt-4 mb-4">stefannicb@gmail.com</p>
           </div>
           </div>

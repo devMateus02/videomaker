@@ -9,9 +9,9 @@ function Cards(props) {
     >
       <div>
         <img src="globo.png" alt="icone de globo" className="w-[25px] lg:mt-2" />
-        <h4 className="relative lg:w-[20ch] font-semibold lg:ml-2 pl-5 text-[14px] text-left before:content-['●'] before:absolute before:left-0 mt-4">
+        <p className="relative lg:w-[20ch] font-semibold lg:ml-2 pl-5 text-[14px] text-left before:content-['●'] before:absolute before:left-0 mt-4">
           {props.name}
-        </h4>
+        </p>
       </div>
 
       {/* botão fixado no canto inferior direito do card */}
