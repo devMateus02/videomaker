@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
-import VideoLoader from "../components/videolooder";
+import Load from "../components/Load";
 import Tiltle from "../components/Tiltle";
 
 const cloudName = "dqhypftku"; // seu Cloudinary cloud name
@@ -49,7 +49,7 @@ function Portifolio() {
       <Navbar />
         <Tiltle name='PORTIFÓLIO' font='42px' />
      <div className="w-[90vw] m-auto p-4">
-  <VideoLoader loading={loading} />
+  <Load loading={loading} />
 
   {!loading && (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-15">

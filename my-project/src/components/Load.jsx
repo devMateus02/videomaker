@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoLoader = ({ loading }) => {
+const Load = ({ loading }) => {
   if (!loading) return null;
 
   return (
@@ -14,4 +14,4 @@ const VideoLoader = ({ loading }) => {
      
 };
 
-export default VideoLoader;
+export default Load;
