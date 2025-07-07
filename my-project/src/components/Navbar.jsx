@@ -47,7 +47,7 @@ export default function Navbar() {
       >
         <ul className="flex flex-col md:flex-row items-center md:items-center justify-center md:justify-start gap-6 md:gap-2.5 text-center w-full">
           {/* Botão de contato rápido */}
-          <li className="relative opacity-0 pointer-events-none sm:opacity-100 sm:pointer-events-auto ">
+          <li className="relative opacity-100 pointer-events-auto sm:opacity-100 sm:pointer-events-auto ">
             <button alt='botao de menu'
               onClick={() => setOpenLab(!openLab)}
               className="relative p-4 cursor-pointer transition duration-75 ease-in-out
