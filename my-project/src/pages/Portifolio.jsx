@@ -59,6 +59,7 @@ function Portifolio() {
           <video data-aos='fade-left'
             key={publicId}
             src={videoUrl}
+            loading="lazy"
             controls
             className="w-full h-[350px] object-center rounded-lg shadow"
           />

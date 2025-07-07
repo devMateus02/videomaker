@@ -30,6 +30,7 @@ export default function FotoCarousel(props) {
         {fotos.map((foto, i) => (
           <SwiperSlide key={i} className='rounded-3xl'>
             <img
+            loading='lazy'
               src={foto}
               alt={`Foto ${i + 1}`}
               className="w-full h-[160px] object-fill rounded-3xl shadow-md"

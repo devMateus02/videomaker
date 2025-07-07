@@ -40,6 +40,7 @@ function InfiniteLogoCarousel(props) {
         >
           {duplicated.map((logo, i) => (
             <img
+              loading='lazy'
               key={i}
               src={logo}
               alt={`Logo ${i}`}
