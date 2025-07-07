@@ -60,7 +60,7 @@ export default function Navbar() {
             ></button>
 
             <div
-              className={`absolute top-[60px] left-0 w-[250px] bg-[#1E1E1E] p-6 rounded-3xl transition-all duration-300 ease-in-out z-50 
+              className={`absolute top-[60px] left-[-110px] border-1 border-white/50 sm:left-0 w-[250px] bg-[#1E1E1E] p-6 rounded-3xl transition-all duration-300 ease-in-out z-50 
                 ${
                   openLab
                     ? "opacity-100 scale-100 pointer-events-auto"
