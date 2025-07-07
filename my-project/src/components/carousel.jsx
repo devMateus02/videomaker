@@ -12,7 +12,7 @@ import img11 from '../assets/logos/11.webp'
 
 
 // Carrossel Infinito das Logos
-function InfiniteLogoCarousel(props) {
+function InfiniteLogoCarousel() {
   const logos = [
     img1, img2, img3, img4, img5,
     img7, img8, img9, img10, img11
@@ -21,7 +21,7 @@ function InfiniteLogoCarousel(props) {
   const duplicated = [...logos, ...logos]
 
   return (
-    <div className="overflow-hidden py-10 " data-aos='fade-down' data-aos-delay={props.delay} >
+    <div className="overflow-hidden py-10 " >
       <style>
         {`
           @keyframes scroll {

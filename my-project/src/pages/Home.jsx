@@ -258,7 +258,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <LogoCarousel delay='500' />
+        <LogoCarousel/>
       </div>
       <div className="bg-[rgb(56,54,54)] overflow-hidden">
         <section id="contato" className="flex flex-col justify-center items-center">
